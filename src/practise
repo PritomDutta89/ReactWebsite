@@ -1,0 +1,41 @@
+// // 1. challenge 3
+
+// import React from "react";
+// import ReactDom from "react-dom";
+// // import App from "./App";
+// import "./style.css";
+
+// let p = "";
+// let d = new Date(2021,12,3,21);
+// const m = d.getHours();
+// let h;
+
+// if(m>=1 && m<12)
+// {
+//    p = "Good Morning";
+//    h = {
+//      color:"red"
+//    }
+// }
+// else if(m>=12 && m<19){
+//   p = "Good Afternoon";
+//    h = {
+//      color:"yellow"
+//    }
+// }
+// else {
+//   p = "Good Night";
+//    h = {
+//      color:"orange"
+//    }
+// }
+
+
+// ReactDom.render(
+//   <>
+//     <h1 className="o">Hello sir, <span style={h} >{p}</span></h1>
+//     <p>{m}</p>
+
+    
+//   </>, document.getElementById("root")
+// );
